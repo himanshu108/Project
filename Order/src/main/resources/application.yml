@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://HP-Test:test@cluster0.irhqo.mongodb.net/Order
+      
+  application:
+    name: ORDER-SERVICE
